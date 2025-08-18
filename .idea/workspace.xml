@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf1c00a-b80a-4239-a4fc-f142698ae8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/storeapi/models.py" afterDir="false" />
+    <list default="true" id="2cf1c00a-b80a-4239-a4fc-f142698ae8aa" name="Changes" comment="Refactor: move Pydantic models to separate models.py for better organization">
+      <change afterPath="$PROJECT_DIR$/storeapi/routers/post.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storeapi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/storeapi/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storeapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/storeapi/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,13 @@
       <updated>1754997243262</updated>
       <workItem from="1754997244342" duration="3540000" />
       <workItem from="1755095215999" duration="1171000" />
-      <workItem from="1755096470728" duration="2381000" />
+      <workItem from="1755096470728" duration="2624000" />
+      <workItem from="1755167387670" duration="5413000" />
+      <workItem from="1755247713826" duration="1310000" />
+      <workItem from="1755249074325" duration="571000" />
+      <workItem from="1755249770809" duration="1742000" />
+      <workItem from="1755523742976" duration="1199000" />
+      <workItem from="1755525532333" duration="3232000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -108,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755004899118</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactor: move Pydantic models to separate models.py for better organization">
+      <option name="closed" value="true" />
+      <created>1755099463728</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755099463728</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +144,7 @@
     <MESSAGE value="Init" />
     <MESSAGE value="2nd Commit" />
     <MESSAGE value="3rd Commit Hello world with uvicorn" />
-    <option name="LAST_COMMIT_MESSAGE" value="3rd Commit Hello world with uvicorn" />
+    <MESSAGE value="Refactor: move Pydantic models to separate models.py for better organization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: move Pydantic models to separate models.py for better organization" />
   </component>
 </project>
