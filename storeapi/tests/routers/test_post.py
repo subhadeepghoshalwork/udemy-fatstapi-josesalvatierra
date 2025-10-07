@@ -83,5 +83,5 @@ async def test_get_post_with_comments(
 async def test_get_missing_post_with_comments(
     async_client: AsyncClient, created_post: dict, created_comment: dict
 ):
-    response = await async_client.get("/post/2")
+    response = await async_client.get("/post/3")
     assert response.status_code == 404
