@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf1c00a-b80a-4239-a4fc-f142698ae8aa" name="Changes" comment="Refactor: move Pydantic models to separate models.py for better organization">
-      <change afterPath="$PROJECT_DIR$/storeapi/routers/post.py" afterDir="false" />
+    <list default="true" id="2cf1c00a-b80a-4239-a4fc-f142698ae8aa" name="Changes" comment="Section 3 Complete">
+      <change afterPath="$PROJECT_DIR$/requirement-dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storeapi/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storeapi/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storeapi/tests/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storeapi/tests/routers/test_post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storeapi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/storeapi/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storeapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/storeapi/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storeapi/routers/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/storeapi/routers/post.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +74,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-PY-252.23892.439" />
         <option value="bundled-python-sdk-b3ae9b5d7125-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.439" />
       </set>
     </attachedChunks>
@@ -89,7 +93,8 @@
       <workItem from="1755249074325" duration="571000" />
       <workItem from="1755249770809" duration="1742000" />
       <workItem from="1755523742976" duration="1199000" />
-      <workItem from="1755525532333" duration="3232000" />
+      <workItem from="1755525532333" duration="3302000" />
+      <workItem from="1759828390265" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -123,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755099463728</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Section 3 Complete">
+      <option name="closed" value="true" />
+      <created>1755528852267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755528852267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +158,7 @@
     <MESSAGE value="2nd Commit" />
     <MESSAGE value="3rd Commit Hello world with uvicorn" />
     <MESSAGE value="Refactor: move Pydantic models to separate models.py for better organization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor: move Pydantic models to separate models.py for better organization" />
+    <MESSAGE value="Section 3 Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 3 Complete" />
   </component>
 </project>
